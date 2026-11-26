@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.rubyforge_project = '[none]'
 
-  s.add_dependency 'excon', '~> 0.37'
+  s.add_dependency 'excon', '>= 0.37', '< 2'
   s.add_development_dependency 'rspec', '~> 3.0'
   # s.add_development_dependency 'vcr'
   s.add_development_dependency 'guard-rspec'
